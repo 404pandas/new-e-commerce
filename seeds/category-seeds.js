@@ -4,55 +4,58 @@ const { Category } = require("../models");
 
 const categoryData = [
   {
-    category_title: "Normal",
+    category_title: "Normal 1",
   },
   {
-    category_title: "Fire",
+    category_title: "Fire 2",
   },
   {
-    category_title: "Water",
+    category_title: "Water 3",
   },
   {
-    category_title: "Electric",
+    category_title: "Electric 4",
   },
   {
-    category_title: "Grass",
+    category_title: "Grass 5",
   },
   {
-    category_title: "Ice",
+    category_title: "Ice 6",
   },
   {
-    category_title: "Fighting",
+    category_title: "Fighting 7",
   },
   {
-    category_title: "Poison",
+    category_title: "Poison 8",
   },
   {
-    category_title: "Ground",
+    category_title: "Ground 9",
   },
   {
-    category_title: "Flying",
+    category_title: "Flying 10",
   },
   {
-    category_title: "Psychic",
+    category_title: "Psychic 11",
   },
   {
-    category_title: "Bug",
+    category_title: "Bug 12",
   },
   {
-    category_title: "Rock",
+    category_title: "Rock 13",
   },
   {
-    category_title: "Ghost",
+    category_title: "Ghost 14",
   },
   {
-    category_title: "Dragon",
+    category_title: "Dragon 15",
   },
   {
-    category_title: "Dark",
+    category_title: "Dark 16",
   },
   {
-    category_title: "Steel",
+    category_title: "Steel 17",
+  },
+  {
+    category_title: "Fairy 18",
   },
 ];
 

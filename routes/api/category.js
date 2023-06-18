@@ -6,7 +6,7 @@ const { Category } = require("../../models");
 // Get all categories
 router.get("/", (req, res) => {
   Category.findAll({
-    // todo- add product when built out
+    include: [Product],
   })
     .then((categories) => res.json(categories))
     .catch((err) => res.status(500).json(err));
@@ -18,7 +18,7 @@ router.get("/:id", (req, res) => {
     where: {
       id: req.params.id,
     },
-    // todo- add product when built out
+    include: [Product],
   })
     .then((category) => res.json(category))
     .catch((err) => res.status(400).json(err));

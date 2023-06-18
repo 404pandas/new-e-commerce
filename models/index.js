@@ -1,9 +1,17 @@
 // models
 const Category = require("./Category");
-
-// category to products
+const Product = require("./Product");
+// next step - build out tags
 
 // products to category
-// next step - build out products
+Product.belongsTo(Category, {
+  foreignKey: "category_id",
+  onDelete: "CASCADE",
+});
 
-module.exports = { Category };
+// category to products
+Category.hasMany(Product, {
+  foreignKey: "category_id",
+});
+
+module.exports = { Product, Category };

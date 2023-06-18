@@ -1,24 +1,22 @@
 // sequelize import
 const { Model, DataTypes } = require("sequelize");
-
 // sequelize ORM
-const sequelize = require("../config/connection");
+const sequelize = require("../config/connection.js");
 
-// create categories
-class Category extends Model {}
+class Tag extends Models {}
 
-// fields + rules
-Category.init(
+Tag.init(
   {
+    // id
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
-    category_title: {
+    // title
+    tag_title: {
       type: DataTypes.STRING,
-      allowNull: false,
     },
   },
   {
@@ -26,8 +24,6 @@ Category.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "category",
+    modelName: "tag",
   }
 );
-
-module.exports = Category;
