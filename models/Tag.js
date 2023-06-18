@@ -3,7 +3,7 @@ const { Model, DataTypes } = require("sequelize");
 // sequelize ORM
 const sequelize = require("../config/connection.js");
 
-class Tag extends Models {}
+class Tag extends Model {}
 
 Tag.init(
   {
@@ -15,7 +15,7 @@ Tag.init(
       autoIncrement: true,
     },
     // title
-    tag_title: {
+    tag_name: {
       type: DataTypes.STRING,
     },
   },
@@ -27,3 +27,5 @@ Tag.init(
     modelName: "tag",
   }
 );
+
+module.exports = Tag;
