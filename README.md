@@ -15,9 +15,11 @@
 <!-- PROJECT LOGO -->
 
 <div align="center">
-  <a href="https://github.com/404pandas/new-e-commerce">
-    <img src="./client/src/assets/images/aarr.png" alt="Logo" width="80" height="80">
-  </a>
+
+  
+![ninetales](https://github.com/404pandas/new-e-commerce/assets/113853550/463c2e93-1dd0-43ff-b458-b6089e7ae3eb)
+
+
 
 <h3 align="center">Pokemon Themed E-Commerce Back End</h3>
 
@@ -104,7 +106,10 @@ This project was built with MySQL2, Sequelize, and Express
 
 ## Usage
 
-Once the app is functional, screenshots will be added in this section.
+
+https://github.com/404pandas/new-e-commerce/assets/113853550/67db1ce4-a293-43fc-aaa8-11f0ee27c6e1
+
+
 
 <!-- ROADMAP -->
 
