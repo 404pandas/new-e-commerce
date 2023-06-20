@@ -10,6 +10,6 @@ router.use("/categories", categoryRoutes);
 router.use("/products", productRoutes);
 
 //  /api/tags
-router.use("./tags", tagRoutes);
+router.use("/tags", tagRoutes);
 
 module.exports = router;
